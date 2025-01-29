@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Geheim!</title> 
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<h1> <button style="width: 150px; height: 50px;" onclick="location.href='index.html'"><-Gean werom</button> </h1>
+	<h2> <font size="7">Geheim!</font></h2>
+</head>
+<style>
+div.BottomText {
+  left: 50%;
+  transform: translateX(-50%);
+  position: fixed;
+  width: 20%;
+  bottom: 5px;
+</style>
+<body bgcolor="#959294"> 
+
+<br><center><fontsize="6">Wolst myn Falentyn weze?
+
+<br>	<button style="width: 150px; height: 50px;" onclick="Alert()">jawis</button>
+
+<br>	<button id="nee" style="width: 150px; height: 50px;" onclick="Alert2()">nee</button>
+	<center></font>
+
+<script>
+function Alert() {
+alert('WHOOOO');
+}
+
+function Alert2() {
+alert('Besykje it nochris');
+}
+
+const btn = document.getElementById('nee');
+btn.addEventListener('click', () => {
+  btn.style.visibility = 'hidden';
+});
+</script>
+
+	<div class="BottomText"><font size="5" color="white"><center><i><b>groningen is fictief.</b></i></font></center></div>
+</body>
+</html>

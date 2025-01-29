@@ -30,6 +30,36 @@ div.BottomText {
 <br>		<button style="width: 100px; height: 50px;" onclick="location.href='oer-us.html'"><b>Oer Us<b></button>
 <br>		<button  style="width: 175px; height: 50px;" onclick="location.href='Fryske-shirts.html'" hidden><b>Fryske shirts op Roblox<b></button>
 	
+	        <div class="wrapper">
+            <form class="form1" action="geheim.html">
+                <div class="input nobottomborder">
+                    <div class="inputtext">
+                        <font size="3">geheim wurd</font>
+                    </div>
+
+                    <div class="inputcontent">
+                        <input type="password" id="password" /><br />
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <input class="orangebutton" type="button" value="Login" onclick="checkPassword()" />
+                </div>
+            </form>
+        </div>
+
+       <script>
+      function checkPassword(){
+       if(document.getElementById('password').value == 'Geheime-datum'){
+        alert('korrekt!'); 
+          location.href = "geheim.html";
+         } else {
+         alert('Mis!');
+          return false;
+        }
+       }
+      </script>
+
 	<div class="BottomText"><i><font size="5" color="white"><center>groningen is fictief.</center></font></i></div>
 </body>
 </html>
