@@ -1,35 +1,37 @@
 <html>
 <head>
-<title>Fryske Website</title>
+    <title>Fryske Website</title>
+    <link rel="stylesheet" href="styles.css" />
 	<link rel="icon" type="image/png" href="images/favicon.png">
-	<h1> <font size="7">Agoeie!</font></h1>
-	<h2>Wolkom beste minsken op dizze fryske website!</h2>
 </head>
-<style>
-div.BottomText {
-  left: 50%;
-  transform: translateX(-50%);
-  position: fixed;
-  width: 20%;
-  bottom: 5px;
-</style>
-<body bgcolor="#959294">
-	<br> <img src="images/fryskeflagge.png" alt="fryskeflagge" width="320" height="222">
-	<br> <b><font size="6" font color="#0054a7">Frys<font color="#ffffff">lan Bop<font color="#ee3c31">pe!</b></font> 
-	<br> <font size="5">Foar it heitelan. </font>
-<br>
-<br>
+
+<body bgcolor="#959294"></body>
+<div class="MainContent">
+    <h1> <font size="7">Agoeie!</font></h1>
+	<h2>Wolkom beste minsken op dizze fryske website!</h2>
+
+<center>
+	<p class="wikilink"> <font size="3">Klik 
+		<a href="https://nl.m.wikipedia.org/wiki/Friesland" target="_blank">hier</a> om de wikipedia pagina te bekijken van Friesland.</font></p>
+
+	<br> <img class="fryskeflagge" src="images/fryskeflagge.png" alt="fryskeflagge" width="320" height="222">
+	<p class="flagge-tekst"> <b><font size="6" font color="#0054a7">Frys<font color="#ffffff">lan Bop<font color="#ee3c31">pe!</b></font> 
+    <br> <font size="5">Foar it heitelan. </font> </p>
+
+
 <p> <font size="4">Fryske folksliet:</font>
 	<br> <audio controls>
 		<source src="audio/de-alde-friezen.mp3" type="audio/mp3">
 	</audio></p>
-<br>
-		<p> <font size="3" color="586c8c">Klik 
-		<a href="https://nl.m.wikipedia.org/wiki/Friesland" target="_blank">hier</a> om de wikipedia pagina te bekijken van Friesland.</font></p>
-<br>spul:
-<br>		<button style="width: 100px; height: 50px;" onclick="location.href='oer-us.html'"><b>Oer Us<b></button>
-<br>		<button  style="width: 175px; height: 50px;" onclick="location.href='Fryske-shirts.html'" hidden><b>Fryske shirts op Roblox<b></button>
-	<!--
+	
+<br> <font size="6">spul:</font> 
+<br>		<button class="oerusbutton" style="width: 100px; height: 50px;" onclick="location.href='oer-us.html'"><b>Oer Us</b></button>
+<br>		<button class="shirtsbutton" style="width: 175px; height: 50px;" onclick="location.href='Fryske-shirts.html'"><b>Fryske shirts op Roblox</b></button>
+
+<br
+</center>	
+
+<!--
     	        <div class="wrapper">
             <form class="form1">
                 <div class="input nobottomborder">
@@ -60,7 +62,7 @@ div.BottomText {
         }
        }
       </script>
-
-	<div class="BottomText"><i><font size="5" color="white"><center>groningen is fictief.</center></font></i></div>
+</div>
+	<p class="BottomText"><i><font size="5" color="white">groningen is fictief.</font></i></p>
 </body>
 </html>
