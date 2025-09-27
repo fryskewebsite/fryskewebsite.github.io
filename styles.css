@@ -1,18 +1,6 @@
-
-/* universal */
-
-
 body {
   margin: 0;
   padding: 0;
-}
-
-.werombutton {
-  border-radius: 8px;
-  background-color: #0054a7;
-  color: black;
-  border: 3px solid #ffffff;
-  transform: translateY(15%);
 }
 
 .shirtlink {
@@ -33,7 +21,6 @@ body {
   transform: translateY(20%);
 }
 
-/* index */
 .MainContent {
   min-height: calc(100vh - 75px - 16px); 
 }
@@ -64,18 +51,87 @@ body {
   border: 4px solid #000000;
 }
 
-.oerusbutton {
+.geheim {
   border-radius: 8px;
-  background-color: #0054a7;
+  border: 4px solid #313030;
+  background-color: #515151;
+  height: 90px;
+  width: 225px;
+}
+
+.form1 {
+  margin-top: 2px;
+}
+
+.inputcontent {
+  border-radius: 5px;
+  border: 3px solid #313030;
+  width: 180px;
+  
+}
+
+.buttons {
+  margin-top: 3.5px;
+  border-radius: 5px;
+  border: 3px solid #313030; 
+  width: 87px;
+}
+
+.werombutton {
+  background-color: #5f8ab6;
   color: black;
+  border-radius: 8px;
+  border: 3px solid #ffffff;
+  transform: translateY(15%);
+  transition-duration: 0.4s;
+}
+.werombutton:hover {
+  background-color: #0054a7;
+}
+
+.oerusbutton {
+  background-color: #5f8ab6;
+  color: black;
+  border-radius: 8px;
   border: 3px solid #ffffff;
   transform: translateY(5%);
+  transition-duration: 0.4s;
+}
+.oerusbutton:hover {
+  background-color: #0054a7;
 }
 
 .shirtsbutton {
-  border-radius: 8px;
-  background-color: #0054a7;
+  background-color: #5f8ab6;
   color: black;
+  border-radius: 8px;
   border: 3px solid #ffffff;
   transform: translateY(10%);
+  transition-duration: 0.4s;
 }
+.shirtsbutton:hover {
+  background-color: #0054a7;
+}
+
+.testbutton {
+  background-color: #5f8ab6;
+  color: black;
+  border-radius: 8px;
+  border: 3px solid #ffffff;
+  transition-duration: 0.4s;
+}
+.testbutton:hover {
+  background-color: #0054a7;
+}
+.resettestbutton {
+  background-color: #5f8ab6;
+  color: black;
+  border-radius: 8px;
+  border: 3px solid #ffffff;
+  margin-top: 9px;
+  transition-duration: 0.4s;
+}
+.resettestbutton:hover {
+  background-color: #0054a7;
+}
+
